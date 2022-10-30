@@ -1,7 +1,7 @@
 version: "3.2" # optional since v1.27.0
 services:
   mysql:
-    container_name: "spring-boot-learn"
+    container_name: "imooc-maill"
     image: mysql:8.0.16
     ports:
       - "3306:3306"
